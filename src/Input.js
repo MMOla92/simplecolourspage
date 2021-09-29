@@ -22,9 +22,9 @@ const Input = ({
           setHexValue(e.target.value);
         }}
       />
-      <button type="button" onClick={() => setIsDarkText(!isDarkText)}>
+     {/*  <button type="button" onClick={() => setIsDarkText(!isDarkText)}>
         Toggle Text Colour
-      </button>
+      </button> */}
     </form>
   );
 };

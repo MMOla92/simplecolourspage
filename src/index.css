@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 html {
@@ -35,10 +36,14 @@ body {
 
 .square p {
   text-align: center;
+  
+  
 }
 
 form {
   width: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 label {
@@ -54,9 +59,11 @@ input [type="text"] {
   box-shadow: 2px 2px 5px black;
   border-radius: 0.25rem;
   outline: none;
+  /* margin-right: auto;
+  margin-left: auto; */
 }
 
-button {
+/* button {
   width: 100%;
   min-height: 48px;
   margin-top: 0.5rem;
@@ -64,4 +71,4 @@ button {
   border-radius: 0.25rem;
   box-shadow: 2px 2px 5x black;
   padding: 0.25rem;
-}
+} */
