@@ -10,10 +10,9 @@ html {
 }
 
 body {
-  min-height: 100vh;
-  font-family: "Roboto", sans-serif;
-  -webkit-font-smoothing: antialised;
-  -moz-osx-font-smoothing: grayscale;
+  min-height: 300;
+  font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 .App {
@@ -59,16 +58,14 @@ input [type="text"] {
   box-shadow: 2px 2px 5px black;
   border-radius: 0.25rem;
   outline: none;
-  /* margin-right: auto;
-  margin-left: auto; */
 }
 
-/* button {
-  width: 100%;
-  min-height: 48px;
+input {
   margin-top: 0.5rem;
-  font-size: 1rem;
-  border-radius: 0.25rem;
-  box-shadow: 2px 2px 5x black;
   padding: 0.25rem;
-} */
+  width: 100%;
+  font-size: 1rem;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 0.25rem;
+  outline: none;
+}
